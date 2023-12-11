@@ -8,9 +8,7 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Home - Kaleidoscope Systems</title>
   
-
-    <!-- Bootstrap core CSS -->
-<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/main.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -56,21 +54,36 @@
     </header>
 
     <main>
-      <div class="px-4 py-5 my-5 text-center bg-primary bg-gradient">
-        <h1 class="display-5 fw-bold">Right-sized IT Services</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            Technology should eliminate headaches – not cause them. We can help your systems work better with each other and your business processes.
+      <body>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol id="arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </symbol>
+          <symbol id="check2-circle" viewBox="0 0 16 16">
+            <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+            <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+          </symbol>
+        </svg>
+    
+        <div class="container my-5">
+          <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <h1 class="text-body-emphasis">Custom solutions for the modern web</h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted">
+              We specialize in streamlining online operations for small businesses and non-profits.
             </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="#services"><button type="button" class="btn btn-light btn-lg px-4 gap-3">Learn more</button></a>
-            <a href="#contact"><button type="button" class="btn btn-secondary btn-lg px-4">Contact Us</button></a>
+            <div class="d-inline-flex gap-2 mb-5">
+              <a class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" role="button" href="#services">
+                Learn More
+                <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"/></svg>
+              </a>
+              <a class="btn btn-outline-secondary btn-lg px-4 rounded-pill" href="#contact" role="button">Contact Us</a>
+            </div>
           </div>
         </div>
-      </div>
+      
       <div class="services-header p-3 pb-md-4 mx-auto text-center" id="services">
         <h1 class="display-4 fw-normal">Services</h1>
-        <p class="fs-5 text-muted">Whether you're an individual or a medium-sized business, we have services to align with your specific needs.</p>
       </div>
       <div class="container px-4 py-5" id="featured-3">
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -125,7 +138,7 @@
       <div class="p-3 pb-md-4 mx-auto text-center bg-dark" id="contact">
         <h1 class="display-4 fw-normal text-light">Contact Us</h1>
         <div class="text-light">
-          <p><a href="mailto:info@kaleidoscopesystems.net">info@kaleidoscopesystems.net</a></p>
+          <p><a href="mailto:info@kaleidoscopesystems.net" class="link-light">info@kaleidoscopesystems.net</a></p>
           <p>+1 970-232-4662</p>
           <p>Loveland, CO</p>
         </div>       
