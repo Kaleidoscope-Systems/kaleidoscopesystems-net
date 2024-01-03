@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Kaleidoscope-Systems/kaleidoscopesystems-net#readme",
   "dependencies": {
-    "bootstrap": "^5.3.2"
+    "@material/web": "^1.1.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "bootstrap": "^5.3.2",
+    "rollup": "^4.9.2"
   }
 }

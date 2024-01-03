@@ -1,3 +1,9 @@
+:root {
+  --md-filled-button-label-text-font: system-ui;
+  --md-sys-color-primary: #1261a4;
+  --md-sys-color-on-primary: #FFFFFF;
+}
+
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);
