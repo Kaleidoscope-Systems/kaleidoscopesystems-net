@@ -1,9 +1,15 @@
 //custom variables
 $primary: #1261a4;
 $secondary: #2d2d2d;
+$font-family-base: 'Lexend Deca', sans-serif;
 
 //import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+
+// custom font utility
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
